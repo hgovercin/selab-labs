@@ -28,22 +28,12 @@ De nieuwe Apple Silicon processoren zorgen tijdens de opdrachten van System Engi
 
 Er zijn drie opties om virtuele machines aan te maken op macbooks met Apple Silicon:
 
-- **UTM (voorkeur)**: <https://mac.getutm.app/>
-  - Dit is gratis te downloaden via de website, in de App Store wordt er \$ 9,99 voor gevraagd. Als je de developers wil bedanken voor hun werk, download je via de App Store. In het andere geval via de website.
-  - Dit is momenteel de **voorkeursoplossing**.
+- **UTM (voorkeur)**: <https://hogenttin.github.io/operating-systems/h2/2-create-vm-in-utm/>
 - Parallels: <https://www.parallels.com/nl/>
   - Dit is geen gratis software en kost wel wat.
   - Er geldt 50% korting voor studenten: <https://www.parallels.com/nl/landingpage/pd/education/>.
 - VirtualBox for ARM: <https://www.virtualbox.org/wiki/Testbuilds>
   - In de toekomst zou dit de voorkeursoplossing moeten worden, maar momenteel is deze nog onstabiel.
-
-### Ubuntu draaien in UTM
-
-1. Download het ISO-bestand voor Ubuntu Desktop LTS voor ARM architecturen via <https://cdimage.ubuntu.com/jammy/daily-live/pending/>.
-2. Volg de stappen uit de documentatie van UTM onder **Creating a new virtual machine**: <https://docs.getutm.app/guides/ubuntu/#creating-a-new-virtual-machine>.
-   - In deze stappen spreekt men wel over een Ubuntu Server ISO-bestand, dit vervang je logischerwijs door het gedownloade Ubuntu Desktop ISO-bestand.
-   - Stap 7 mag je overslaan.
-3. Na het doorlopen van deze 9 stappen, heb je een werkende Ubuntu Desktop virtuele machine.
 
 ## License information
 
