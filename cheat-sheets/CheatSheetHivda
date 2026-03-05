@@ -1,0 +1,25 @@
+# Cheat Sheet: MariaDB Server Installatie
+**Student:** Hivda
+
+## 1. Netwerk & Systeembeheer
+| Taak | Commando |
+| :--- | :--- |
+| IP-adres controleren | `ip a` |
+| Status van MariaDB bekijken | `systemctl status mariadb` |
+| MariaDB herstarten | `sudo systemctl restart mariadb` |
+| Configuratiebestand bewerken | `sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf` |
+
+## 2. Remote Access (Bind-Address)
+Om externe verbindingen toe te staan (vervangen van 127.0.0.1 naar 0.0.0.0):
+```bash
+sudo sed -i 's/127.0.0.1/0.0.0.0/' /etc/mysql/mariadb.conf.d/50-server.cnf
+
+## 3. MariaDB SQL 
+sudo mariadb
+GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%' IDENTIFIED BY 'letmein' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
+## 4. Debugging 
+- **Fout:** `Access denied for user 'admin'@'_gateway'`
+- **Waarom:** Geen toestemming voor host toegang.
+- **Oplossing:** Gebruiker defineren met `%` (wildcard) host.
