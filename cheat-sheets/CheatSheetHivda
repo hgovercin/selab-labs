@@ -1,3 +1,41 @@
+# Cheat Sheet: System Engineering Lab (SELab)
+**Student:** Hivda
+# Cheat Sheet: Opdracht 1 - Package Management & Systeembeheer
+
+## 1. APT Package Manager (Ubuntu Standaard)
+Essentiële commando's voor het beheren van softwarepakketten.
+
+| Taak | Commando |
+| :--- | :--- |
+| Update de pakketlijsten | `sudo apt update` |
+| Installeer een nieuw pakket | `sudo apt install <pakketnaam>` |
+| Verwijder een pakket | `sudo apt remove <pakketnaam>` |
+| Upgrade alle geïnstalleerde pakketten | `sudo apt upgrade` |
+| Zoek naar een specifiek pakket | `apt search <zoekterm>` |
+| Verwijder onnodige afhankelijkheden | `sudo apt autoremove` |
+
+## 2. Snap Package Manager
+Voor het beheren van sandboxed applicaties.
+
+| Taak | Commando |
+| :--- | :--- |
+| Installeer een snap pakket | `sudo snap install <pakketnaam>` |
+| Bekijk een lijst van actieve snaps | `snap list` |
+| Verwijder een snap pakket | `sudo snap remove <pakketnaam>` |
+
+## 3. Netwerk & Systeem Informatie
+Basiscommando's om de systeemstatus te controleren zoals vereist in het lab.
+
+* **IP-adres controleren:** `ip a` (Toont alle netwerkadapters en hun IPv4/IPv6 adressen).
+* **Default gateway bekijken:** `ip r -n`
+* **DNS-instellingen controleren:** `cat /etc/resolv.conf`
+* **Service status bekijken:** `systemctl status <service_naam>`
+* **Service herstarten:** `sudo systemctl restart <service_naam>`
+
+## 4. SSH & Remote Access
+* **Inloggen op een remote server:** `ssh gebruiker@ip-adres`
+* **Bestanden kopiëren via SCP:** `scp <bestand> gebruiker@ip-adres:/pad/naar/bestemming`
+
 # Cheat Sheet: MariaDB Server Installatie
 **Student:** Hivda
 
