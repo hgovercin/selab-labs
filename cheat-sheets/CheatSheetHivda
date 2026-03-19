@@ -61,3 +61,24 @@ FLUSH PRIVILEGES;
 - **Fout:** `Access denied for user 'admin'@'_gateway'`
 - **Waarom:** Geen toestemming voor host toegang.
 - **Oplossing:** Gebruiker defineren met `%` (wildcard) host.
+
+# Cheat sheets en checklists
+| Student: Nihat |
+
+## Labo 3 - Web Server Setup
+
+### Belangrijke commando's Linux (Apache)
+
+| Taak | Commando |
+| :--- | :--- |
+| De webserver status controleren | `sudo systemctl status apache2` |
+| De webserver herstarten | `sudo systemctl restart apache2` |
+| Een bestand bewerken met nano | `sudo nano [bestandsnaam]` |
+| Rechten aanpassen (Permissions) | `sudo chmod 644 [bestandsnaam]` |
+| Inhoud van een bestand tonen | `cat [bestandsnaam]` |
+| De firewall uitschakelen | `sudo ufw disable` |
+| IP-adres van de server opzoeken | `ip a` |
+
+### Nano Editor Shortcuts
+* **Opslaan:** `CTRL + O`
+* **Afsluiten:** `CTRL + X`
