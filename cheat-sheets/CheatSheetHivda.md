@@ -30,7 +30,7 @@ Simpele git workflow voor projecten met een enkele branch en zonder contributors
 1. Is het IP-adres correct? `ip a`
 2. Is de router/default gateway correct? `ip r -n`
 3. Is een DNS-server ingesteld? `cat /etc/resolv.conf`
-# Cheat Sheet: Opdracht 1 - Package Management & Systeembeheer
+# Labo 1 : Opdracht 1 - Package Management & Systeembeheer
 
 ## 1. APT Package Manager (Ubuntu Standaard)
 Essentiële commando's voor het beheren van softwarepakketten.
@@ -66,7 +66,7 @@ Basiscommando's om de systeemstatus te controleren zoals vereist in het lab.
 * **Inloggen op een remote server:** `ssh gebruiker@ip-adres`
 * **Bestanden kopiëren via SCP:** `scp <bestand> gebruiker@ip-adres:/pad/naar/bestemming`
 
-# Cheat Sheet: Opdracht 2 MariaDB Server Installatie
+# Labo 2 Opdracht 2 MariaDB Server Installatie
 **Student:** Hivda
 
 ## 1. Netwerk & Systeembeheer
@@ -92,8 +92,6 @@ FLUSH PRIVILEGES;
 - **Waarom:** Geen toestemming voor host toegang.
 - **Oplossing:** Gebruiker defineren met `%` (wildcard) host.
 
-# Cheat sheets en checklists
-| Student: Nihat |
 
 ## Labo 3 - Web Server Setup
 
