@@ -79,7 +79,7 @@ Basiscommando's om de systeemstatus te controleren zoals vereist in het lab.
 
 ## 2. Remote Access (Bind-Address)
 Om externe verbindingen toe te staan (vervangen van 127.0.0.1 naar 0.0.0.0):
-```bash
+bash
 sudo sed -i 's/127.0.0.1/0.0.0.0/' /etc/mysql/mariadb.conf.d/50-server.cnf
 
 ## 3. MariaDB SQL 
