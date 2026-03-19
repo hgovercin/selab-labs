@@ -66,7 +66,7 @@ Basiscommando's om de systeemstatus te controleren zoals vereist in het lab.
 * **Inloggen op een remote server:** `ssh gebruiker@ip-adres`
 * **Bestanden kopiëren via SCP:** `scp <bestand> gebruiker@ip-adres:/pad/naar/bestemming`
 
-# Cheat Sheet: MariaDB Server Installatie
+# Cheat Sheet: Opdracht 2 MariaDB Server Installatie
 **Student:** Hivda
 
 ## 1. Netwerk & Systeembeheer
